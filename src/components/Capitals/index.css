@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  background-color: #93c5fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  background-color: #f8fafc;
+  padding: 20px 50px;
+  border-radius: 16px;
+  width: 35%;
+}
+
+.capital-selector-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.country-text {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.question-text {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+/* .options-text {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 14px;
+} */
+
+.selector-card {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  border: 2px solid #cbd2d9;
+  padding: 10px 20px;
+  outline: none;
+  width: 190px;
+  border-radius: 5px;
+}
